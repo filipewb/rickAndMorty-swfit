@@ -7,7 +7,7 @@ final class RMSettingsViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .systemBackground
-        title = "Configurações"
+        title = "Settings"
     }
 
 }
