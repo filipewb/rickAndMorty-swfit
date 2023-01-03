@@ -9,10 +9,8 @@ final class RMCharacterViewController: UIViewController, RMCharacterListViewDele
         super.viewDidLoad()
         
         view.backgroundColor = .systemBackground
-        title = "Character"
         
         setUpView()
-                
     }
     
     private func setUpView() {
