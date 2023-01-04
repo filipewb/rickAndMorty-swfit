@@ -34,10 +34,10 @@ final class RMTabBarController: UITabBarController {
         nav3.tabBarItem = UITabBarItem(title: "Episodes", image: UIImage(systemName: "tv"), tag: 3)
         nav4.tabBarItem = UITabBarItem(title: "Settings", image: UIImage(systemName: "gear"), tag: 4)
         
-        for nav in [nav1, nav2, nav3, nav4] {
+ /*       for nav in [nav1, nav2, nav3, nav4] {
             nav.navigationBar.prefersLargeTitles = true
         }
-        
+*/
         setViewControllers(
             [nav1, nav2, nav3, nav4],
             animated: true
