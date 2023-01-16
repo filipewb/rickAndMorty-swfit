@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A16C2A42975890A00867C31 /* RMSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A16C2A32975890A00867C31 /* RMSearchViewController.swift */; };
 		8A3DDA60295CDF8C00401929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3DDA5F295CDF8C00401929 /* AppDelegate.swift */; };
 		8A3DDA62295CDF8C00401929 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3DDA61295CDF8C00401929 /* SceneDelegate.swift */; };
 		8A3DDA64295CDF8C00401929 /* RMTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3DDA63295CDF8C00401929 /* RMTabViewController.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A16C2A32975890A00867C31 /* RMSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSearchViewController.swift; sourceTree = "<group>"; };
 		8A3DDA5C295CDF8C00401929 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3DDA5F295CDF8C00401929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A3DDA61295CDF8C00401929 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 			children = (
 				8A9CEBC92963288800172DAF /* RMCharacterDetailViewController.swift */,
 				8A5500572971899A004CB7D4 /* RMEpisodeDetailViewController.swift */,
+				8A16C2A32975890A00867C31 /* RMSearchViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				8A59F306295DC6AE00B967CA /* RMOrigin.swift in Sources */,
 				8A9CEBCE296329FB00172DAF /* RMCharacterDetailViewViewModel.swift in Sources */,
 				8A59F308295DC71200B967CA /* RMSingleLocation.swift in Sources */,
+				8A16C2A42975890A00867C31 /* RMSearchViewController.swift in Sources */,
 				8A59F315295DDD5D00B967CA /* RMCharacterListView.swift in Sources */,
 				8A59F311295DDA8800B967CA /* RMGetAllCharactersResponse.swift in Sources */,
 				8A59F30A295DC82D00B967CA /* RMCharacterStatus.swift in Sources */,
